@@ -1,0 +1,87 @@
+.nav_item {
+    display: inline-block;
+    margin-right: 54px;
+    text-decoration: none;
+}
+.logo_wrapper {
+    display: inline-block;
+    margin-right: 400px;
+}
+.nav_list {
+    display: inline-block;
+    
+}
+.button_login {
+    margin-left: 20%;
+    background-color: #46A358;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.button_login_img {
+    display: inline-block;
+    padding: 0px;
+}
+.button_login_text {
+    display: inline-block;
+   
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    align-items: center;
+  }
+  
+  .banner-text {
+    max-width: 500px;
+  }
+  
+  .subtitle {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #9E9E9E;
+    margin-bottom: 16px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  h1 .green {
+    color: #46A358;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+  
+  .shop-btn {
+    background-color: #46A358;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 400px;
+    height: auto;
+  }
