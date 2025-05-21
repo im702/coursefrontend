@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   max-width: 1400;
+}
+.wrapper_recipes {
+    min-height: 100svh;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/recipes.jpg);
+    background-size: cover;
+}
+.wrapper{
+    min-height: 100svh;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/main.jpg);
+    background-size:cover;
+}
+
+.background{
+    max-width: 1000;
+}
+
+.back {
+    background-image: none;
+background: linear-gradient(to bottom, #000000 0%, #ffffffff 100% );
+background-size:cover;
+background-repeat: no-repeat;
+    background-size: cover;
+}
+.panel {
+    display: flex;              
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 30px;                 
+    background-color: #3d3d3dad;    
+    padding: 15px;  
+    width:100% ; 
+    padding-right: 40px;
+}
+
+.panel a{
+    
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+     color: white;             
+    text-decoration: none;     
+    font-size: 18px;           
+    transition: 0.3s;          
+  
+}
+
+.panel a:hover {
+    text-decoration: underline;
+    color: #ffcc99;            
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+   
+    margin:0 ;
+    padding: 10px 0px 0 px 100px;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: url("../img/bg.png") no-repeat center center;
+    background-size: cover;
+}
+
+.text-box {
+    background-color: rgba(50, 50, 50, 0.6);
+    border-radius: 40px;
+    padding: 30px;
+    color: white;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.text-box h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 96px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 32px;
+    color: black;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction:column;
+
+    position: relative;
+}
+
+.author-info {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #3d3d3d; 
+    color: white; 
+}
+
+.text-cards {
+    display: grid; 
+    grid-template-columns: repeat(2, 250px); 
+    grid-gap: 20px;
+    
+   
+}
+
+.card {
+    background-color: #e0e0e0; 
+    color: black; 
+    width: 250px; 
+    height: 250px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 15px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.author-photo {
+    flex-shrink: 0; 
+}
+
+.author-photo img {
+    width: 800px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+.text-cards {
+font-weight: 600;
+font-size: 24px;
+}
+
+.cards {
+    width: 250px ;
+    height: 250px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+   background-color: #0000007d;
+    }
+    .cards1{
+        display: flex;
+    text-align: center;
+    flex-direction: column;
+        background-size: cover;
+        background-position: center;
+        width: 250px ;
+        height: 250px;
+    }
+    
+    .cardlist_recipe{
+        width: 10% ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        align-items: center;
+        list-style: none;
+       margin-top: 100px;
+       margin-left: 18%;
+       
+    }
+    .text_recept{
+        display: flex;
+        align-items: center;
+       margin-left: 70%;
+       margin-top: 100px;
+         font-family: "Monotype Corsiva", sans-serif;
+           font-weight: 400;
+           font-size: 128px;
+           color: #000;   }
+        
+        .recipe-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+          }
+      
+          .recipe-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+          }
+      
+          .recipe-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+      
+          .recipe-text h2 {
+            margin-top: 0;
+            color: #d65a8c;
+          }
+      
+          .ingredients, .instructions {
+            margin-top: 10px;
+          }
+      
+          .ingredients strong, .instructions strong {
+            display: block;
+            margin-bottom: 5px;
+          }
+          ul.cardlist_recipe {
+            list-style: none;
+            padding: 0;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: nowrap; 
+            max-width: 1000px;
+        }
+        
+        li.cards {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 220px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        li.cards:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        li.cards img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        
+        .text-cards {
+            margin-top: 12px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+        }
+       .carousel {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .carousel img {
+      display: none;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .carousel img.active {
+      display: inline;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+        
