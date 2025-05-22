@@ -170,7 +170,7 @@ font-size: 24px;
     width: 250px ;
     height: 250px;
     padding: 30px;
-    margin: 10px;
+    margin: 20px;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -191,7 +191,7 @@ font-size: 24px;
         width: 10% ;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:end ;
         
         align-items: center;
         list-style: none;
@@ -310,4 +310,4 @@ font-size: 24px;
       font-size: 16px;
     }
 
-        
+     

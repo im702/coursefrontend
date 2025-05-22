@@ -247,6 +247,20 @@
 
 .product-card {
   text-align: center;
+  position: relative;
+  
+}
+
+.product-card hr {
+background-color: #348b2500;
+height: 1px;
+border:none;
+}
+.product-card:hover hr{
+
+  background-color: #2db329;
+  height: 1px;
+
 }
 
 .product-card img {
@@ -278,6 +292,31 @@
   display: flex;
   gap: 10px;
 }
+
+/*.product-card-bg {
+  position: relative;
+  background-color: #45a049;
+  height: 100%;
+  z-index: 0;
+}
+ */
+ .panel{
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+
+ }
+
+ .panel_icon {
+  width: 20;
+  height: auto;
+ }
+
+ .product-card:hover .panel{
+  opacity: 1;
+ }
 
 .pagination {
   margin-top: 40px;
